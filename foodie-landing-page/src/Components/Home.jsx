@@ -21,8 +21,11 @@ const Home = () => {
             chopping & marinating, so you can cook a fresh food.
           </p>
           <button className='secondary-button'>
-            
+            Order Now <FiArrowRight/>
           </button>
+        </div>
+        <div className="home-image-container">
+          <img src={BannerImage} alt=""/>
         </div>
       </div>
     </div>
