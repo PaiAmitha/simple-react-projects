@@ -3,9 +3,9 @@ import Home from './components/Home';
 
 function App() {
   return (
-   <Routes>
-    <Route path='/' element={<Home/>}></Route>
-   </Routes>
+  <div>
+    <Home/>
+  </div>
   );
 }
 
