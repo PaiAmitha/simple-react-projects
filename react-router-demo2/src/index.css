@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-nav {
+.primary-nav {
   background-color: rgb(135, 191, 240);
   padding: 16px 32px;
 }
@@ -54,4 +54,23 @@ nav a.active {
   margin-top: 70px;
   margin-left: 220px;
   background-color: rgb(236, 203, 95);
+}
+
+.search{
+  width: 190px;
+  height: 45px;
+  margin: 20px;
+  margin-left: 200px;
+  border-radius: 34px;
+  padding: 10px;
+}
+
+.product-nav {
+  width: 220px;
+  height: 27px;
+  text-align: center;
+  margin-left: 185px;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: rgb(236, 236, 156);
 }
