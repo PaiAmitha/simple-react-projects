@@ -8,8 +8,8 @@ const Products = () => {
       <input type='search' placeholder='🔍 Search Products' className='search'/>
     </div>
     <nav className='product-nav'>
-        <Link to='featured'>Featured</Link>
-        <Link to='new'>New</Link>
+        <Link to='/products/featured'>Featured</Link>
+        <Link to='/products/new'>New</Link>
     </nav>
     <Outlet/>
     </>
